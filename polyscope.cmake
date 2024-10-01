@@ -2,6 +2,8 @@ if (TARGET polyscope)
   return()
 endif()
 
+include(CPM)
+
 set(CMAKE_CXX_FLAGS_DEBUG_OLD "${CMAKE_CXX_FLAGS_DEBUG}")
 set(CMAKE_CXX_FLAGS_DEBUG "-w")
 

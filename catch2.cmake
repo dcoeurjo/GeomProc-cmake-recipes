@@ -6,6 +6,6 @@ if (TARGET Catch2)
   return()
 endif()
 
-include(cmake/CPM.cmake)
+include(CPM)
 
 CPMAddPackage("gh:catchorg/Catch2@2.13.7")
