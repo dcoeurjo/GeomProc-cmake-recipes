@@ -15,10 +15,10 @@ endif()
 
 message(STATUS "Third-party (external): creating target 'igl::core'")
 
+include(CPM)
 include(eigen)
 option(LIBIGL_INSTALL "Enable installation of libigl targets" ON)
 
-include(CPM)
 CPMAddPackage(
     NAME libigl
     GITHUB_REPOSITORY libigl/libigl

@@ -15,3 +15,5 @@ CPMAddPackage(
 
 include("${DGtal_BINARY_DIR}/DGtalConfig.cmake")
 include_directories("${DGTAL_INCLUDE_DIRS}")
+
+## Link targets to use: "DGtal ${DGTAL_LIBRARIES}"
