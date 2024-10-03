@@ -26,6 +26,7 @@ Libs | version
 -----|--------
 [eigen](https://eigen.tuxfamily.org) |3.4.0
 [libigl](https://libigl.github.io) | 2.5.0
+[geogram](https://github.com/BrunoLevy/geogram) WIP| 1.9.0
 [polyscope](polyscope.run) | 2.3.0
 [geometry-central](https://geometry-central.net) | master
 [dgtal](dgtal.org) | 16bdcf9d542b81d4ebf2734f942ef86f4cdfa011

@@ -6,11 +6,12 @@ include(CPM)
 
 message(STATUS "Fetching DGtal")
 SET(BUILD_EXAMPLES OFF)
+SET(DGTAL_REMOVE_UNINSTALL ON)
 
 CPMAddPackage(
   NAME DGtal
   GITHUB_REPOSITORY "DGtal-team/DGtal"
-  GIT_TAG 16bdcf9d542b81d4ebf2734f942ef86f4cdfa011
+  GIT_TAG 4e9fc6a10ada2b0480d8cd4a204eb9509c209aaa
 )
 
 include("${DGtal_BINARY_DIR}/DGtalConfig.cmake")
