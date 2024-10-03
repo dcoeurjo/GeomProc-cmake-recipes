@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.14)
-project(CMakeRecipes)
+project(geomproc-recipes)
 
 list(APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR})
 
