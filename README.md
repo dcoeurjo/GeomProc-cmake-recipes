@@ -29,7 +29,7 @@ Libs | version
 [geogram](https://github.com/BrunoLevy/geogram) WIP| 1.9.0
 [polyscope](polyscope.run) | 2.3.0
 [geometry-central](https://geometry-central.net) | master
-[dgtal](dgtal.org) | 16bdcf9d542b81d4ebf2734f942ef86f4cdfa011
+[dgtal](dgtal.org) | 4e9fc6a10ada2b0480d8cd4a204eb9509c209aaa
 [stb_image](https://github.com/nothings/stb) | master
 
 
