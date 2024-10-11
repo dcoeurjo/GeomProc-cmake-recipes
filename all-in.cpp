@@ -9,6 +9,8 @@
 #include <stb_image_write.h>
 #include <spdlog/spdlog.h>
 #include <pybind11/pybind11.h>
+#include <CGAL/Simple_cartesian.h>
+
 
 int main(int argc, char** argv)
 {
@@ -21,5 +23,17 @@ int main(int argc, char** argv)
   Eigen::VectorXd aVector(3);
   aVector << 1, 2, 3;
    
+  
+  {//CGLAL
+    typedef CGAL::Simple_cartesian<double> Kernel;
+    typedef Kernel::Point_2 Point_2;
+    typedef Kernel::Segment_2 Segment_2;
+    Point_2 p(1,1), q(10,10);
+    std::cout << "p = " << p << std::endl;
+    std::cout << "q = " << q.x() << " " << q.y() << std::endl;
+    std::cout << "sqdist(p,q) = "
+    << CGAL::squared_distance(p,q) << std::endl;
+  }
+  
   return 0;
 }

@@ -22,22 +22,23 @@ For system-wide downloads, consider using the `CPM_SOURCE_CACHE` environnement v
 
 
 # Geometry processing packages
-Libs | version
------|--------
-[eigen](https://eigen.tuxfamily.org) |3.4.0
-[libigl](https://libigl.github.io) | 2.5.0
-[geogram](https://github.com/BrunoLevy/geogram) WIP| 1.9.0
-[polyscope](polyscope.run) | 2.3.0
-[geometry-central](https://geometry-central.net) | master
-[dgtal](dgtal.org) | 4e9fc6a10ada2b0480d8cd4a204eb9509c209aaa
-[stb_image](https://github.com/nothings/stb) | master
+Libs | version | credits
+-----|-------- | -----
+[eigen](https://eigen.tuxfamily.org) |3.4.0 | [Lagrange](https://opensource.adobe.com/lagrange-docs/)
+[libigl](https://libigl.github.io) | 2.5.0 | [Lagrange](https://opensource.adobe.com/lagrange-docs/)
+[CGAL](https://cgal.org) | 6.0 | 
+[polyscope](polyscope.run) | 2.3.0 | 
+[geometry-central](https://geometry-central.net) | master | 
+[dgtal](dgtal.org) | 4e9fc6a10ada2b0480d8cd4a204eb9509c209aaa | 
+[stb_image](https://github.com/nothings/stb) | master | 
+[geogram](https://github.com/BrunoLevy/geogram) WIP| 1.9.0 | 
 
 
 # Tools
-Libs | version
------|--------
-[cli11](https://cliutils.github.io/CLI11/book/)| v2.3.2
-[catch2](https://github.com/catchorg/Catch2)| 2.13.7
-[openmp](openmp.org)| n.a.
-[spdlog](https://github.com/gabime/spdlog) | 1.14.1
-[pybind11](https://pybind11.readthedocs.io/en/stable/) | 2.13.6
+Libs | version| credits
+-----|--------|  --- 
+[cli11](https://cliutils.github.io/CLI11/book/)| v2.3.2 | [Lagrange](https://opensource.adobe.com/lagrange-docs/)
+[catch2](https://github.com/catchorg/Catch2)| 2.13.7 | [DGtal](https://dgtal.org)
+[openmp](openmp.org)| n.a.| [DGtal](https://dgtal.org) 
+[spdlog](https://github.com/gabime/spdlog) | 1.14.1 |[Lagrange](https://opensource.adobe.com/lagrange-docs/)
+[pybind11](https://pybind11.readthedocs.io/en/stable/) | 2.13.6[Lagrange](https://opensource.adobe.com/lagrange-docs/)
