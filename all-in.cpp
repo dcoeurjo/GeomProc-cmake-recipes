@@ -31,8 +31,7 @@ int main(int argc, char** argv)
     Point_2 p(1,1), q(10,10);
     std::cout << "p = " << p << std::endl;
     std::cout << "q = " << q.x() << " " << q.y() << std::endl;
-    std::cout << "sqdist(p,q) = "
-    << CGAL::squared_distance(p,q) << std::endl;
+    std::cout << "sqdist(p,q) = " << CGAL::squared_distance(p,q) << std::endl;
   }
   
   return 0;
