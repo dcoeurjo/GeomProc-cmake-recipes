@@ -55,15 +55,14 @@ jobs:
         echo "build-output-dir=${{ github.workspace }}/build" >> "$GITHUB_OUTPUT"
 
     - name: Deps (linux)
-       if: matrix.os == 'ubuntu-latest'
-       run: |
+      if: matrix.os == 'ubuntu-latest'
+      run: |
            sudo apt-get update
            sudo apt-get install xorg-dev libglu1-mesa-dev libboost-dev
 
     - name: Deps (macos)
-       if: matrix.os == 'ubuntu-latest'
-       run: |
-           brew install boost
+      if: matrix.os == 'ubuntu-latest'
+      run: brew install boost
 
     - name: Configure CMake
       # Configure CMake in a 'build' subdirectory. `CMAKE_BUILD_TYPE` is only required if you are using a single-configuration generator such as make.
