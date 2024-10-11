@@ -19,7 +19,7 @@ int main(int argc, char** argv)
   
   spdlog::info("Welcome to spdlog!");
   DGtal::trace.info() << "DGtal trace"<<std::endl;
-  polyscope::init();
+  polyscope::options::autocenterStructures = false;
   Eigen::VectorXd aVector(3);
   aVector << 1, 2, 3;
    
