@@ -21,7 +21,8 @@ message(STATUS "[cgal] CGAL_DIR: ${CGAL_DIR}")
 #If you want to use the system-wide GMP or MPFR, you need to set this variable to "Default")
 
 set(CGAL_CMAKE_EXACT_NT_BACKEND "BOOST_BACKEND" CACHE STRING "CGAL multiprecision number type backend")
-message(STATUS "[cgal] CGAL_CMAKE_EXACT_NT_BACKEND: ${CGAL_CMAKE_EXACT_NT_BACKEND}")
+SET(CGAL_DISABLE_GMP ON CACHE BOOL "")
+SET(CMAKE_DISABLE_FIND_PACKAGE_GMP ON CACHE BOOL "")
 find_package(CGAL REQUIRED)
 message(STATUS "[cgal] CGAL_CMAKE_EXACT_NT_BACKEND: ${CGAL_CMAKE_EXACT_NT_BACKEND}")
 
