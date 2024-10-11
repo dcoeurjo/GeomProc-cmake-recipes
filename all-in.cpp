@@ -2,7 +2,7 @@
 #include <DGtal/base/Common.h>
 #include <polyscope/polyscope.h>
 #include <geometrycentral/surface/meshio.h>
-#include <Catch2/catch.hpp>
+#include <catch2/catch.hpp>
 #include <Eigen/Core>
 #include <igl/readOFF.h>
 #include <stb_image.h>
