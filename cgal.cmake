@@ -5,6 +5,7 @@ endif()
 message(STATUS "Third-party (external): creating target 'CGAL::CGAL' (Boost required)")
 include(CPM)
 
+
 # Using a different CPM target to avoid conflicts with the main CGAL targets
 CPMAddPackage(
   NAME CGAL_local
@@ -15,6 +16,11 @@ CPMAddPackage(
 
 set(CGAL_DIR ${CGAL_local_SOURCE_DIR})
 message(STATUS "[cgal] CGAL_DIR: ${CGAL_DIR}")
+
+#We only rely on Boost for multiprecision.
+#If you want to use the system-wide GMP or MPFR, you need to set this variable to "Default")
+set(CGAL_CMAKE_EXACT_NT_BACKEND "BOOST_BACKEND") 
+
 find_package(CGAL REQUIRED)
 
 # Boost and its components
