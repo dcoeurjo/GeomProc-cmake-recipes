@@ -13,7 +13,7 @@ CPMAddPackage(
   DOWNLOAD_ONLY YES
 )
 
-set(CGAL_DIR ${CGAL_LOCAL_SOURCE_DIR})
+set(CGAL_DIR ${CGAL_local_SOURCE_DIR})
 message(STATUS "[cgal] CGAL_DIR: ${CGAL_DIR}")
 find_package(CGAL REQUIRED)
 
