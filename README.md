@@ -42,4 +42,3 @@ Libs | version| credits
 [catch2](https://github.com/catchorg/Catch2)| 2.13.7 | [DGtal](https://dgtal.org)
 [openmp](openmp.org)| n.a.| [DGtal](https://dgtal.org) 
 [spdlog](https://github.com/gabime/spdlog) | 1.14.1 |[Lagrange](https://opensource.adobe.com/lagrange-docs/)
-[pybind11](https://pybind11.readthedocs.io/en/stable/) | 2.13.6| [Lagrange](https://opensource.adobe.com/lagrange-docs/)

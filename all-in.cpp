@@ -8,7 +8,6 @@
 #include <stb_image.h>
 #include <stb_image_write.h>
 #include <spdlog/spdlog.h>
-#include <pybind11/pybind11.h>
 #include <CGAL/Simple_cartesian.h>
 #include <directional/index_prescription.h>
 #include <directional/CartesianField.h>

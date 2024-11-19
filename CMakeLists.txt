@@ -18,12 +18,11 @@ include(catch2)
 include(openmp)
 include(spdlog)
 include(stb)
-include(pybind11)
 #include(geogram) c++ std lib version issue (not compatible with c++17)
 include(cgal)
 
 include(directional)
 
 add_executable(all-in all-in.cpp)
-target_link_libraries(all-in PRIVATE pybind11::pybind11 spdlog::spdlog polyscope stb CGAL::CGAL CLI11::CLI11 Eigen3::Eigen igl::core geometry-central Catch2::Catch2 directional OpenMP::OpenMP_CXX DGtal ${DGtal_LIBRARIES})
+target_link_libraries(all-in PRIVATE spdlog::spdlog polyscope stb CGAL::CGAL CLI11::CLI11 Eigen3::Eigen igl::core geometry-central Catch2::Catch2 directional OpenMP::OpenMP_CXX DGtal ${DGtal_LIBRARIES})
 
