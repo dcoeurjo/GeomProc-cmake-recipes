@@ -31,6 +31,7 @@ Libs | version | credits
 [geometry-central](https://geometry-central.net) | master | 
 [dgtal](dgtal.org) | 4e9fc6a10ada2b0480d8cd4a204eb9509c209aaa | 
 [stb](https://github.com/nothings/stb) | master | 
+[Directional](https://avaxman.github.io/Directional/)| master | 
 [geogram](https://github.com/BrunoLevy/geogram) WIP| 1.9.0 | 
 
 

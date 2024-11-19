@@ -10,7 +10,8 @@
 #include <spdlog/spdlog.h>
 #include <pybind11/pybind11.h>
 #include <CGAL/Simple_cartesian.h>
-
+#include <directional/index_prescription.h>
+#include <directional/CartesianField.h>
 
 int main(int argc, char** argv)
 {
@@ -22,9 +23,11 @@ int main(int argc, char** argv)
   polyscope::options::autocenterStructures = false;
   Eigen::VectorXd aVector(3);
   aVector << 1, 2, 3;
-   
-  
-  {//CGLAL
+
+  directional::CartesianField rawFaceField;
+
+  {
+    //CGAL
     typedef CGAL::Simple_cartesian<double> Kernel;
     typedef Kernel::Point_2 Point_2;
     typedef Kernel::Segment_2 Segment_2;
