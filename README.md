@@ -21,6 +21,9 @@ target_link_libraries(main polyscope DGtal ${DGTAL_LIBRARIES} geometry-central i
 For system-wide downloads, consider using the `CPM_SOURCE_CACHE` environnement variable (cf [CPM doc](https://github.com/cpm-cmake/CPM.cmake?tab=readme-ov-file#CPM_SOURCE_CACHE))
 
 
+*Note*: Some recipe combinations could be suboptimal, as a given subproject may be downloaded and built several times.
+
+
 # Geometry processing packages
 Libs | version | credits
 -----|-------- | -----
