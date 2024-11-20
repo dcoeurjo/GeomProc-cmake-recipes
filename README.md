@@ -1,4 +1,4 @@
-# GeomProc-cmake-recipes
+# GeometryProcessing-cmake-recipes
 [![ubuntu/macOS](https://github.com/dcoeurjo/GeomProc-cmake-recipes/actions/workflows/cmake-multi-platform.yml/badge.svg)](https://github.com/dcoeurjo/GeomProc-cmake-recipes/actions/workflows/cmake-multi-platform.yml)
 
 This repository contains [cmake](cmake.org)/[CPM](https://github.com/cpm-cmake/CPM.cmake) recipes that I use to easily integrate geometry processing libraries and utilities to my c++ projects.
