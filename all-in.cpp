@@ -11,6 +11,8 @@
 #include <CGAL/Simple_cartesian.h>
 #include <directional/index_prescription.h>
 #include <directional/CartesianField.h>
+#include <boost/filesystem.hpp>
+
 
 int main(int argc, char** argv)
 {

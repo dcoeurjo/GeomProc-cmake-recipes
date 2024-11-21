@@ -19,7 +19,7 @@ include(CPM)
 
 CPMAddPackage(
     NAME local_directional
-    GIT_TAG master
+    GIT_TAG ed62c362b59ebd84cdfac520abc37df1bab77290
     GITHUB_REPOSITORY avaxman/Directional
 )
 

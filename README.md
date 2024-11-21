@@ -32,10 +32,9 @@ Libs | version | credits
 [libigl](https://libigl.github.io) | 2.5.0 | [Lagrange](https://opensource.adobe.com/lagrange-docs/)
 [CGAL](https://cgal.org) | 6.0 | 
 [polyscope](polyscope.run) | 2.3.0 | 
-[geometry-central](https://geometry-central.net) | master | 
-[dgtal](dgtal.org) | 4e9fc6a10ada2b0480d8cd4a204eb9509c209aaa | 
-[stb](https://github.com/nothings/stb) | master | 
-[Directional](https://avaxman.github.io/Directional/)| master | 
+[geometry-central](https://geometry-central.net) | 70c859ec3b58fe597c0063673a74082654e9c5aa |
+[stb](https://github.com/nothings/stb) | 5736b15f7ea0ffb08dd38af21067c314d6a3aae9 | [Lagrange](https://opensource.adobe.com/lagrange-docs/)
+[Directional](https://avaxman.github.io/Directional/)| ed62c362b59ebd84cdfac520abc37df1bab77290 | 
 [geogram](https://github.com/BrunoLevy/geogram) WIP| 1.9.0 | 
 
 
@@ -46,3 +45,4 @@ Libs | version| credits
 [catch2](https://github.com/catchorg/Catch2)| 2.13.7 | [DGtal](https://dgtal.org)
 [openmp](openmp.org)| n.a.| [DGtal](https://dgtal.org) 
 [spdlog](https://github.com/gabime/spdlog) | 1.14.1 |[Lagrange](https://opensource.adobe.com/lagrange-docs/)
+[boost](https://boost.org) | 1.8.2 |[Lagrange](https://opensource.adobe.com/lagrange-docs/)
