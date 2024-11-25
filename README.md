@@ -38,7 +38,6 @@ Libs | version | credits
 [cinolib](https://github.com/mlivesu/cinolib) (without gui)|8174c95b590d083b3699e4af95901c51344266ec | 
 [geogram](https://github.com/BrunoLevy/geogram) WIP| 1.9.0 | 
 
-
 # Tools
 Libs | version| credits
 -----|--------|  --- 
