@@ -13,6 +13,8 @@
 #include <directional/CartesianField.h>
 #include <boost/filesystem.hpp>
 
+#include <cinolib/meshes/meshes.h>
+#include <cinolib/Poisson_sampling.h>
 
 int main(int argc, char** argv)
 {
@@ -36,6 +38,13 @@ int main(int argc, char** argv)
     std::cout << "p = " << p << std::endl;
     std::cout << "q = " << q.x() << " " << q.y() << std::endl;
     std::cout << "sqdist(p,q) = " << CGAL::squared_distance(p,q) << std::endl;
+  }
+
+  {
+    //cinolib 
+    //from 35_Poisson_sampling
+    std::vector<cinolib::vec2d> samples_2d;
+    cinolib::Poisson_sampling<2, cinolib::vec2d>(0.02f, cinolib::vec2d(0, 0), cinolib::vec2d(1, 1), samples_2d);
   }
   
   return 0;

@@ -35,6 +35,7 @@ Libs | version | credits
 [geometry-central](https://geometry-central.net) | 70c859ec3b58fe597c0063673a74082654e9c5aa |
 [stb](https://github.com/nothings/stb) | 5736b15f7ea0ffb08dd38af21067c314d6a3aae9 | [Lagrange](https://opensource.adobe.com/lagrange-docs/)
 [Directional](https://avaxman.github.io/Directional/)| ed62c362b59ebd84cdfac520abc37df1bab77290 | 
+[cinolib](https://github.com/mlivesu/cinolib) (without gui)|8174c95b590d083b3699e4af95901c51344266ec | 
 [geogram](https://github.com/BrunoLevy/geogram) WIP| 1.9.0 | 
 
 
