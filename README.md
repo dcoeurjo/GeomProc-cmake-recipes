@@ -31,6 +31,7 @@ Libs | version | credits
 [eigen](https://eigen.tuxfamily.org) |3.4.0 | [Lagrange](https://opensource.adobe.com/lagrange-docs/)
 [libigl](https://libigl.github.io) | 2.5.0 | [Lagrange](https://opensource.adobe.com/lagrange-docs/)
 [CGAL](https://cgal.org) | 6.0 | 
+[DGtal](https://dgtal.org) | 1.4.2 | 
 [polyscope](polyscope.run) | 2.3.0 | 
 [geometry-central](https://geometry-central.net) | 70c859ec3b58fe597c0063673a74082654e9c5aa |
 [stb](https://github.com/nothings/stb) | 5736b15f7ea0ffb08dd38af21067c314d6a3aae9 | [Lagrange](https://opensource.adobe.com/lagrange-docs/)
